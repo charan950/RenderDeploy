@@ -1,0 +1,6 @@
+@RenderDeploy_HostAddress = http://localhost:5180
+
+GET {{RenderDeploy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
